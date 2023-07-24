@@ -1,0 +1,183 @@
+.page--login {
+    height: 160vh;
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/d7af077c-af5a-4055-8f9a-740a43588583/a7265ef3-cac9-4c22-a3e6-6c88ba72bbf5/BR-pt-20230717-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+    display: flex;
+    width: 98.9vw;
+
+}
+
+
+.page-login {
+    position: absolute;
+    height: 100vh;
+    z-index: 2;
+
+
+}
+
+.black-filter {
+    height: 160vh;
+    width: 98.9vw;
+    position: absolute;
+
+    z-index: 0;
+
+
+    background-color: #000000;
+    opacity: 0.6;
+}
+
+.header-logo {
+
+    z-index: 2;
+    margin-left: 20px;
+    margin-top: -15px;
+
+}
+
+.header-logo img {
+    height: 120px;
+}
+
+.login-box {
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 450px;
+    height: 666px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    border-radius: 4px;
+
+
+}
+
+.enter-label {
+    width: 70%;
+    display: flex;
+    justify-content: left;
+}
+
+.login-box h1 {
+    color: #fff;
+    text-align: center;
+    margin-top: 60px;
+}
+
+
+.input-email,
+.input-pass {
+    font-size: 17px;
+    width: 70%;
+    margin-bottom: 50px;
+    background-color: #333;
+    color: #fff;
+    height: 50px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.link-login {
+    width: 70%;
+}
+
+.btn-login {
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 30px;
+    width: 100%;
+    height: 50px;
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.remember {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #B3B3B3;
+
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.register-area {
+    margin-top: 40px;
+    width: 70%;
+
+}
+
+.register-area h4 {
+    font-weight: normal;
+    color: #B3B3B3;
+}
+
+.register-area h4 a {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.register-area p {
+    color: #B3B3B3;
+    font-size: 13px;
+}
+
+.register-area p a {
+    color: #0071eb
+}
+
+.footer-login {
+    margin-top: 70px;
+    padding-left: 180px;
+    padding-right: 380px;
+
+    top: 100%;
+    width: 98.7vw;
+    height: 265px;
+    background-color: rgba(0, 0, 0, 0.75);
+
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-links {
+
+    display: flex;
+
+
+    justify-content: space-between;
+
+
+}
+
+.footer-login h4 {
+    color: #B3B3B3;
+}
+
+.footer-links div {
+    margin-right: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-links div a {
+    font-size: 14px;
+    color: #B3B3B3;
+    margin-bottom: 10px;
+}
